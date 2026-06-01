@@ -110,11 +110,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   text-decoration: none;
-  transition: color 250ms ease;
-}
-
-.nav-link:hover, .nav-link:focus, .nav-link.current {
-  color: var(--accent-color);
 }
 
 .contact-link {
@@ -124,12 +119,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
-  transition: color 250ms ease;
 }
 
-.contact-link:hover, .contact-link:focus {
-  color: var(--accent-color);
-}
 
 .hero {
   background-color: var(--dark-bg-color);
@@ -153,7 +144,6 @@ img {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 30px;
   max-width: 696px;
@@ -282,7 +272,6 @@ img {
   line-height: 1.71;
   color: var(--white-color);
   text-decoration: none;
-  transition: color 250ms ease;
 }
 
 .footer-contact-link {
@@ -290,7 +279,6 @@ img {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  transition: color 250ms ease;
 }
 
 .map-link:hover, .map-link:focus,
